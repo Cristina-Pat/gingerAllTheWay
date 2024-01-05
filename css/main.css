@@ -1,0 +1,41 @@
+
+/* START copy this style for the comomn part
+(header - social, logo, search and nav)*/
+* {
+    box-sizing: border-box;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.top-area {
+    background-color: #efedea;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.fa-brands {
+    padding-right: 10px;
+}
+
+a {
+    text-decoration: none;
+    
+}
+
+i {
+    color: #416ca6;
+}
+
+.nav {
+    padding-bottom: 20px;
+}
+.nav-link {
+    color: #416ca6;
+}
+/* END copy this style for the comomn part
+(header - social, logo, search and nav) */
+
+.main {
+    height: 960px;
+    border-style: dashed;
+    border-color: #8c480d;
+}
