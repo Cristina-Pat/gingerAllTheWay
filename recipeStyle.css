@@ -1,0 +1,193 @@
+/* START copy this style for the common part
+(header - social, logo, search and nav)*/
+* {
+    box-sizing: border-box;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.top-area {
+    background-color: #efedea;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.logo-area {
+    background-color: #ffff;
+}
+
+.fa-brands {
+    padding-right: 10px;
+}
+
+a {
+    text-decoration: none;
+    
+}
+
+i {
+    color: #416ca6;
+}
+
+.nav {
+    padding-bottom: 20px;
+}
+.nav-link {
+    color: #416ca6;
+}
+/* END copy this style for the common part
+(header - social, logo, search and nav) */
+
+.main {
+    background-color: #ffff;
+    height: auto; /*960px for common parts*/
+    border-style: dashed;
+    border-color: #8c480d;
+}
+
+.main-page-content {
+    justify-content:left;
+    align-self: 
+    float: 
+    margin-right: 100px; /* Same as the width of the sidenav */
+    font-size: 18px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+}
+
+@font-face {
+    font-family:'CandyCane' ;
+    src: url('/FONTS/transfonter.org-20240103-160555/CandyCanePersonalUse-Regular.eot'); /*IE9 COMPAT MODES*/
+    src: url('/FONTS/transfonter.org-20240103-160555/CandyCanePersonalUse-Regular.svg#svgFontName') format('svg'); /*Legacy iOS*/
+    src: url('/FONTS/transfonter.org-20240103-160555/CandyCanePersonalUse-Regular.ttf') format('truetype'); /*Safari, Android, iOS*/
+    src: url('/FONTS/transfonter.org-20240103-160555/CandyCanePersonalUse-Regular.woff') format('woff'); /*Pretty Modern Browsers*/
+    src: url('/FONTS/transfonter.org-20240103-160555/CandyCanePersonalUse-Regular.woff2') format('woff2'); /*Super Modern Browsers*/
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap; 
+}
+
+
+.container {
+    font-family: 'Lexend Deca', sans-serif;!important
+    background-color: #ffff;
+}
+
+.container-fluid {
+    font-family: 'Lexend Deca', sans-serif;!important
+}
+
+.col-2, #fixed-sidebar {
+    height: 100%;
+    width: 100px;
+    position: fixed;
+    background-image: url(/imagesRecipePage/White\ Blue\ Snowflake\ Pattern.png);
+    float: right;
+    justify-content:right;
+    align-self: flex-end;
+}
+
+.serve-input {
+    width: auto;
+    height: auto;
+}
+
+.serve-input button {
+    width: fit-content;
+    height: fit-content;
+}
+
+body {
+    font-family: 'Lexend Deca', sans-serif;
+
+}
+
+#recipe-title, h1 {
+    color: #c22132;
+    font-family: 'Lexend Deca', sans-serif;
+    padding-top: 20px;
+    margin: auto;
+}
+
+.content-above-image {
+    color: black;
+    padding: 5px;
+    margin: auto;
+}
+
+.avatar {
+    padding:5px;
+}
+
+.recipe-image {
+    width:fit-content;
+    height: fit-content;
+    float: left;
+    align-self: flex-start;
+    padding: 5px;
+}
+
+.zoom {
+    padding: 5px;
+    width: 500px;
+    height: 500px;
+    overflow: hidden;
+    margin: 0 auto;
+  }
+
+.zoom img {
+    border-color: #25762c;
+    width: 100%;
+    transition: 0.5s all ease-in-out;
+   
+}
+  
+  .zoom:hover img {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+  }
+
+  .content-under-image p, svg, .reviews-label {
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    align-items: center;
+    font-size: larger;
+  }
+
+  .footer-background {
+    background-color: #efedea;
+  }
+
+  .subscribeform {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-top: 100px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .subscribeimg {
+    flex-shrink: 5;
+    padding: 25px 15px;
+  }
+
+  .subPhoto {
+    width: 100%;
+    height: 80%;
+  }
+  
+  .subscribebtn {
+    background-color: #25762C;
+    color: white;
+  }
+  
+  #consent {
+    width: 3%;
+    margin: 12px 0px;
+    padding-top: 3px;
+  }
+  
+  #input-text {
+    width: 55%;
+  }
